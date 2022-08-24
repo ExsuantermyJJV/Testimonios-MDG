@@ -3,14 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
 
 
-.home {
-    min-height: 50vh;
-  background-color: rgb(0, 0, 0);
-    z-index: 0;
-    overflow: hidden;
-    position: relative;
-}
-
 .home .content {
     display: flex;
     align-items: center;
@@ -21,19 +13,6 @@
     text-align: center;
 }
 
-.home .content h1 {
-    font-size: 4.5rem;
-    color: rgb(255, 255, 255);
-    padding: 0 1rem;
-    text-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
-    text-transform: uppercase;
-}
-
-.home .content p {
-    font-size: 2rem;
-    color: rgb(255, 255, 255);
-    padding: 1rem 25rem;   
-}
 
 .home .content button {
     height: 5rem;
