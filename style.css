@@ -424,5 +424,6 @@ body{
  .boton{
         align-items: center;
         text-align: center;
+     position: center;
     }
 }
