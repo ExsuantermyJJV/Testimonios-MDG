@@ -271,24 +271,16 @@ body{
     border-color: #f9580e;
 }
 
-.logoimg{
-    height: 5vh;
-    right: 144vh;
-    position: absolute;
-
-}
-@media (min-width: 500px) { 
 
    .logoimg{
     height: 4vh;
     position: absolute;
     left: 31vh;
-}
+
 
 
 @media (max-width: 1200px) {
     
-
     html {
         font-size: 55%;
     }
