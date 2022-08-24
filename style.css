@@ -64,16 +64,14 @@
     box-sizing: border-box;
 }
 
+
 @media screen and (max-width:900px){
 
       .logoimg{
         padding-left: 38px;
     }
     
-    .imgcont{
-        width: 90%;
-        padding-bottom: 10%;
-    }
+
     }
   
   @keyframes fade {
@@ -281,12 +279,10 @@ body{
 }
 @media (min-width: 500px) { 
 
-    .logoimg{
-        right: 10vh;
-    }
-
-    
-
+   .logoimg{
+    height: 4vh;
+    position: absolute;
+    left: 31vh;
 }
 
 
