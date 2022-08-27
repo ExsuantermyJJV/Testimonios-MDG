@@ -1,8 +1,9 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
-
+/*bton */
  button{
+   animation: bounce 3s cubic-bezier(.78,.26,0,.99) infinite;
     height: 5rem;
     width: 20rem;
     border-radius: 1rem;
@@ -15,7 +16,28 @@
     border-color: #000000;
 }
 
-/* acordeon 
+@keyframes bounce {
+  0% {
+    transform: rotate(-10deg) scale(.9)
+  }
+  
+  26% {
+    transform: rotate(10deg) scale(1.1)
+  }
+  30% {
+    transform: rotate(-10deg) scale(1.1)
+  }
+  35% {
+    transform: rotate(10deg) scale(1.1)
+  }
+  40% {
+    transform: rotate(-10deg) scale(1)
+  }
+  45% {
+    transform: rotate(0) scale(1)
+  }
+}
+/*bton */
 
 /*Sección */
 #seccion1{
