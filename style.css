@@ -89,10 +89,7 @@
 }
   
 /*  fin acordeon */
-h3{
-font-size: 1.2vh;
-    color: white;
-    
+
 }
 /* letra video */
 
@@ -269,9 +266,11 @@ body{
 
 
 .product .box-container .box h3 {
-    font-size: 1.5em;
-    color: #ffffff;
+  
     transition: .2s;
+font-size: 1.2vh;
+    color: white;
+    
 }
 
 .product .box-container .box p {
