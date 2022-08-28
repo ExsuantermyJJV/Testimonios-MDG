@@ -142,7 +142,7 @@ body {
     font-size: 3.5rem;
     color: #ffffff;
     text-align: center;
-    padding: 6rem 1rem 0 0;
+    padding: 4rem 1rem 0 0;
     letter-spacing: .2rem;
     font-weight: 600;
 }
@@ -268,7 +268,7 @@ body{
 .product .box-container .box h3 {
   
     transition: .2s;
-font-size: 1.2vh;
+font-size: 1.3vh;
     color: white;
     
 }
