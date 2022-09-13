@@ -89,17 +89,18 @@
 }
 
 
-@media (min-width: 416px) {
-    
+@media (min-width: 300px) {
+
   .cabAcordeon h2{
       width: 100%;
       height: 3vh;
-     font-size: 0.6em;
+      font-size: 0.8em;
       border-bottom: 2px solid #f9580e;
       color: #e8e9e8;
   }
 
 }
+
   
 /*  fin acordeon */
 
