@@ -120,7 +120,13 @@
 
 
 @media screen and (max-width:900px){
-
+.product .box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+ padding-bottom: 10%;
+}
       .logoimg{
         padding-left: 38px;
     }
@@ -434,5 +440,11 @@ font-size: 1.3vh;
         padding-bottom: 4.5em;
         color: #e8e9e8;
     }
-
+.product .box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+ padding-bottom: 10%;
+}
 }
