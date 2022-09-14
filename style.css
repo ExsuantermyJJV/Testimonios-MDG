@@ -442,3 +442,15 @@ font-size: 1.3vh;
     }
 
 }
+
+@media (max-height: 400px) {
+  
+  
+  .contenido{
+    width: 60%;
+    padding: 0 1% 1% 1%;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 5vh;
+  }
+}
