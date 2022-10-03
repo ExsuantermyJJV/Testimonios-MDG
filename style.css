@@ -43,6 +43,7 @@
 
 /*Sección */
 #seccion1{
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,6 +55,7 @@
   width: 60%;
   display: flex;
   padding: 0.5vh 1% 1% 0;
+ 
 }
 .cabAcordeon:hover{
   cursor: pointer;
@@ -63,9 +65,9 @@
   width: 100%;
   height: 3vh;
   font-size: 1.7em;
-  border-bottom: 2px solid #f9580e;
+ border-bottom: 2px solid  #00d9ff;
   padding-bottom: 1em;
-  color: #e8e9e8;
+  color: #ffffff;
 }
 .circulo{
   height: 20px;
@@ -77,10 +79,10 @@
 }
 .contenido{
   width: 60%;
-  padding: 0 1% 1% 1%;
+  padding: 0 1% 5% 1%;
   color: #ffffff;
   font-weight: 700;
-  font-size: 1.5vh;
+  font-size: 1.7vh;
 }
 .animacionContenido{
   height:0;
@@ -90,16 +92,35 @@
 
 @media (max-width: 1450px) {
   
+  .contenido{
+    width: 60%;
+    padding: 0 1% 5% 1%;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 2.5vh;
+  }
+}
+
+@media (max-width: 1450px) {
+  
   .cabAcordeon h2{
       width: 100%;
       height: 3vh;
       font-size: 1.5em;
-      border-bottom: 2px solid #f9580e;
-      padding-bottom: 4.5em;
-      color: #e8e9e8;
+       padding-bottom: 2.7em;
   }
+.circulo{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #f4f5f4cb;
+  margin-top: 0;
+ 
+}
+
 
 }
+
 
 
 /*  fin acordeon */
