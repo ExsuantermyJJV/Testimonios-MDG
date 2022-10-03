@@ -7,13 +7,13 @@
     height: 5rem;
     width: 20rem;
     border-radius: 1rem;
-    background: #fc0000;
-    color: #fff;
+    background: black;
+    color: white;
     font-size: 2rem;
     cursor: pointer;
     transition: .2s;
     margin: 4rem 0;
-    border-color: #000000;
+    border-color: white;
   text-align: center;
   align-items: center;
 }
