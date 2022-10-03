@@ -8,12 +8,12 @@
     width: 20rem;
     border-radius: 1rem;
     background: black;
-    color: white;
+    color: #00d9ff;
     font-size: 2rem;
     cursor: pointer;
     transition: .2s;
     margin: 4rem 0;
-    border-color: white;
+    border-color: #00d9ff;
   text-align: center;
   align-items: center;
 }
@@ -186,7 +186,7 @@ body {
     padding: 4rem 1rem 0 0;
     letter-spacing: .2rem;
     font-weight: 600;
-	 padding-bottom: 6%;
+	 padding-bottom: 4%;
 }
 
 
