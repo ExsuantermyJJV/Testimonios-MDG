@@ -8,9 +8,9 @@ for (let i = 0; i < cabAcordeon.length; i++) {
         contenido[i].classList.toggle("animacionContenido");
         let alturaContenido = contenido[i].clientHeight;
         if (alturaContenido > 0) {//ff2f2fcb
-            circulo[i].style.backgroundColor = "#f9580e";
+                   circulo[i].style.backgroundColor = "#00d9ff";
         }else {
-            circulo[i].style.backgroundColor = "#f9580e"; 
+            circulo[i].style.backgroundColor = "#00d9ff";  
         }
     });
 }
